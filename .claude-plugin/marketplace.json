@@ -1,0 +1,23 @@
+{
+  "name": "skillproof-marketplace",
+  "owner": {
+    "name": "m24927605",
+    "email": "m24927605@gmail.com"
+  },
+  "metadata": {
+    "description": "Verifiable developer resume tools powered by source code analysis",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "skillproof",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/m24927605/skillproof.git"
+      },
+      "description": "Generate verifiable developer resumes from source code repositories. Scans git history, infers skills with confidence scores, and creates cryptographically signed resume bundles.",
+      "version": "1.0.0",
+      "strict": true
+    }
+  ]
+}
